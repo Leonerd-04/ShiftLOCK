@@ -19,10 +19,10 @@ public class ShiftLOCK implements ClientModInitializer {
 
         SHIFT_LOCK = KeyBindingHelper.registerKeyBinding(
                 new KeyBinding(
-                        "Toggle shiftlock",
+                        "shift_lock.toggle",
                         InputUtil.Type.KEYSYM,
                         GLFW.GLFW_KEY_Z, // Default keybinding is Caps Lock
-                        "ShiftLOCK"
+                        "shift_lock.category"
                 )
         );
 
