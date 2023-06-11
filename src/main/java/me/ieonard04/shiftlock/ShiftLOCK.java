@@ -21,7 +21,7 @@ public class ShiftLOCK implements ClientModInitializer {
                 new KeyBinding(
                         "Toggle shiftlock",
                         InputUtil.Type.KEYSYM,
-                        GLFW.GLFW_KEY_CAPS_LOCK, // Default keybinding is Caps Lock
+                        GLFW.GLFW_KEY_Z, // Default keybinding is Caps Lock
                         "ShiftLOCK"
                 )
         );
