@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "ShiftLOCK",
+  "id": "shift_lock",
   "version": "${version}",
   "name": "ShiftLOCK",
   "description": "",
@@ -13,9 +13,6 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "me.ieonard04.shiftlock.client.ShiftLOCKClient"
-    ],
-    "main": [
       "me.ieonard04.shiftlock.ShiftLOCK"
     ]
   },
