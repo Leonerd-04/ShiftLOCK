@@ -16,6 +16,9 @@
       "me.ieonard04.shiftlock.ShiftLOCK"
     ]
   },
+  "mixins": [
+    "shift_lock.mixin.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
