@@ -3,7 +3,7 @@
   "id": "shift_lock",
   "version": "${version}",
   "name": "ShiftLOCK",
-  "description": "",
+  "description": "A mod for Minecraft Java that lets you use toggle and held crouching together",
   "authors": [],
   "contact": {
     "repo": "https://github.com/leonard04/ShiftLOCK"
