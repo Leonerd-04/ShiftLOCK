@@ -29,7 +29,6 @@ public class ShiftLOCK implements ClientModInitializer {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while(SHIFT_LOCK.wasPressed()){
                 IS_SHIFT_LOCKED = !IS_SHIFT_LOCKED;
-                System.out.println("Toggle");
             }
         });
 
