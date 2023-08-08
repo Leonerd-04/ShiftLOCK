@@ -14,8 +14,11 @@
   "entrypoints": {
     "client": [
       "me.ieonard04.shiftlock.ShiftLOCK"
+    ],
+    "modmenu": [
+      "me.ieonard04.shiftlock.ShiftLOCKConfig"
     ]
-  },
+      },
   "mixins": [
     "shift_lock.mixin.json"
   ],
