@@ -7,6 +7,8 @@ import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;
 
+import me.ieonard04.shiftlock.ShiftLOCKConfig;
+
 public class ShiftLOCK implements ClientModInitializer {
     public static boolean IS_SHIFT_LOCKED;
 
@@ -32,6 +34,6 @@ public class ShiftLOCK implements ClientModInitializer {
             }
         });
 
-
+        ShiftLOCKConfig.load();
     }
 }
